@@ -1,0 +1,36 @@
+<html>
+    <head>
+    <title>Pesquisador de CEP</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" href="estilo.css">
+
+    </head>
+
+    <body>
+    <!-- Inicio do formulario -->
+    <div><H1>Pesquisador de CEP</H1></div>
+      <form method="get" action=".">
+        <label>Cep:
+        <input name="cep" type="text" id="cep" value="" size="10" maxlength="9"
+               onblur="pesquisacep(this.value);" /></label><br />
+        <label>Rua:
+        <input name="rua" type="text" id="rua" size="60" /></label><br />
+        <label>Bairro:
+        <input name="bairro" type="text" id="bairro" size="40" /></label><br />
+        <label>Cidade:
+        <input name="cidade" type="text" id="cidade" size="40" /></label><br />
+        <label>Estado:
+        <input name="uf" type="text" id="uf" size="2" /></label><br />
+        <label>IBGE:
+        <input name="ibge" type="text" id="ibge" size="8" /></label><br />
+      </form>
+      <!-- Adicionando Javascript -->
+    <script src="funcoes.js"></script>
+    </body>
+    <footer>
+        <div>
+        <p>Alunos: Kawany, Gislaine, Sanmara e Heliana; 3ºE II</p>
+    </div>
+    </footer>
+    </html>
+    
